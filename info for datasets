@@ -1,8 +1,10 @@
 import pandas as pd
 
-gl = ['Loki', 'Odin', 'Winter Soldier', 'Buck', 'Bucky', 'Barnes', 'James', 'killmonger', ' 'Captain America', 'Cap', 'Steve', 'Rogers', 'Clint', 'Clint Barton', ' 'Hawkeye', 'Fury', 'Nick', 'Coulson', 'Phil', 'Banner', 'John', 'he', 'him', 'his', 'Tony', 'Stark', 'Bruce', 'JARVIS', 'Strucker', 'chala', 'chaka', 'man', 'sir', 'mr', 'thor', 'panther', 'cat', 'Pietro', 'Ultron', 'Rhodes', 'Rhodey', 'Wilson', 'Sam', 'Falcon', 'Klaue', 'Ulysses', 'Heimdall', 'Erik', 'Selvig', 'Vision', 'Thanos', ]
+# male gendered language = mgl
+mgl = ['Loki', 'Odin', 'Winter Soldier', 'Buck', 'Bucky', 'Barnes', 'James', 'killmonger', ' 'Captain America', 'Cap', 'Steve', 'Rogers', 'Clint', 'Clint Barton', ' 'Hawkeye', 'Fury', 'Nick', 'Coulson', 'Phil', 'Banner', 'John', 'he', 'him', 'his', 'Tony', 'Stark', 'Bruce', 'JARVIS', 'Strucker', 'chala', 'chaka', 'man', 'sir', 'mr', 'thor', 'panther', 'cat', 'Pietro', 'Ultron', 'Rhodes', 'Rhodey', 'Wilson', 'Sam', 'Falcon', 'Klaue', 'Ulysses', 'Heimdall', 'Erik', 'Selvig', 'Vision', 'Thanos', ]
 
-wn = ['Maria', 'Hill', 'Natasha', 'Nat', 'Romanoff', 'Peggy', 'Carter', 'Shuri', 'Laura', 'Wanda', 'FRIDAY', 'Helen', 'Cho', 
+# named women = nw
+nw = ['Maria', 'Hill', 'Natasha', 'Nat', 'Romanoff', 'Peggy', 'Carter', 'Shuri', 'Laura', 'Wanda', 'FRIDAY', 'Helen', 'Cho', 
 
 df = pd.DataFrame(gl)
 print(df)
