@@ -21,3 +21,7 @@ Then I will run loops to go through the scripts pulled by the input requested to
 If available, the output will be, "YES, this MCU film DOES pass the Bechdel test!"
 If unavailable, the else: code will skip to the end and print, "No data for that title, please enter the title of a movie from the MCU with available data"
 Then an elif line will be to print, "this movie unfortunately does not pass the Bechdel-test." 
+
+
+This overall is very rough code and does not account for scene changes, group conversations, and other complicating factors. 
+It is only meant to be a basic set-up to give the general idea for if a film will or will not pass the Bechdel-test. As time goes on, I believe I can put more personal time into this project and really flesh it out for more accurancy. 
