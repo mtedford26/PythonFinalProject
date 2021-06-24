@@ -34,4 +34,4 @@ Then an elif line will be to print, "this movie unfortunately does not pass the 
 
 
 This overall is very rough code and does not account for scene changes, group conversations, and other complicating factors. 
-It is only meant to be a basic set-up to give the general idea for if a film will or will not pass the Bechdel-test. As time goes on, I believe I can put more personal time into this project and really flesh it out for more accurancy. 
+It is only meant to be a basic set-up to give the general idea for if a film will or will not pass the Bechdel-test. As time goes on, I believe I can put more personal time into this project and really flesh it out for more accuracy. 
