@@ -31,8 +31,5 @@ If there is no gendered language detected, and/or no items from my table of male
 
 If gendered language/titles/names are detected, the else: code will skip to the end and print, "this movie unfortunately does not pass the Bechdel-test."
 
-Then an elif line will be to print,  #This is out of order and I'm too scatterbrained at the moment to remember where this goes, I think I'm still working on the idea of this code and just added it to the bottom to remember it for later
-
-
 This overall is very rough code and does not account for scene changes, group conversations, and other complicating factors. 
 It is only meant to be a basic set-up to give the general idea for if a film will or will not pass the Bechdel-test. As time goes on, I believe I can put more personal time into this project and really flesh it out for more accuracy. 
