@@ -29,6 +29,7 @@ index = 0
 # open text files that include entire scripts for 3 MCU films
 inputfile = open('captain_america_movie_script.txt', 'r')
 outputfile = open('captain_america_movie_script2.txt', 'w')
+#caw = captain america write
 caw = inputfile.lower()
 print(caw, file=outputfile)
 
@@ -39,11 +40,17 @@ for line in 'caw':
     del dummy_file
 print(caw)
 
-cm = open('captain_marvel text file movie script', 'r')
-cmw = open('cm','w')
+inputfile2 = open('captain_marvel text file movie script.txt', 'r')
+outputfile2 = open('captain_marvel text file movie script2.txt', 'w')
+#cmw = captain marvel write
+cmw = inputfile2.lower()
+print(cmw, file=outputfile2)
 
-aou = open('age_of_ultron text file movie script', 'r')
-aouw = open('auo','w')
+inputfile3 = open('age_of_ultron text file movie script.txt', 'r')
+outputfile3 = open('age_of_ultron text file movie script2.txt', 'w')
+#aouw = age of ultron write
+aouw = inputfile3.lower()
+print(aouw, file=outputfile3)
 
 
 lines = 
