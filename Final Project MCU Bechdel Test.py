@@ -31,8 +31,8 @@ inputfile = open('captain_america_movie_script.txt', 'r')
 outputfile = open('captain_america_movie_script2.txt', 'w')
 #caw = captain america write
 caw = inputfile.lower()
-print(caw, file=outputfile)
-
+print(caw.read())
+inputfile.close()
 
 # this for loop is an attempt at removing all non-dialogue lines
 for line in 'caw':
@@ -44,16 +44,15 @@ inputfile2 = open('captain_marvel text file movie script.txt', 'r')
 outputfile2 = open('captain_marvel text file movie script2.txt', 'w')
 #cmw = captain marvel write
 cmw = inputfile2.lower()
-print(cmw, file=outputfile2)
+print(cmw.read())
+inputfile2.close()
 
 inputfile3 = open('age_of_ultron text file movie script.txt', 'r')
 outputfile3 = open('age_of_ultron text file movie script2.txt', 'w')
 #aouw = age of ultron write
 aouw = inputfile3.lower()
-print(aouw, file=outputfile3)
-
-
-lines = 
+print(aouw.read())
+inputfile3.close()
 
 
 #for line in 
