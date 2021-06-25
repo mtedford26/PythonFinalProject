@@ -1,10 +1,23 @@
 import pandas as pd
+import re
 
 # male gendered language = mgl
-mgl = ['loki', 'odin', 'winter soldier', 'buck', 'bucky', 'barnes', 'james', 'killmonger', ' 'captain america', 'cap', 'steve', 'rogers', 'clint', 'clint barton', ' 'hawkeye', 'fury', 'nick', 'coulson', 'phil', 'banner', 'john', 'he', 'him', 'his', 'tony', 'stark', 'bruce', 'jarvis', 'strucker', 'chala', 'chaka', 'man', 'sir', 'mr', 'thor', 'panther', 'cat', 'pietro', 'ultron', 'rhodes', 'rhodey', 'wilson', 'sam', 'falcon', 'klaue', 'ulysses', 'heimdall', 'erik', 'selvig', 'vision', 'thanos', ]
+mgl = ['loki', 'odin', 'winter soldier', 'buck', 'bucky', 'barnes', \
+       'james', 'killmonger', 'arnim', 'zolaf', 'captain america', \
+       'cap', 'steve', 'rogers', 'clint', 'clint barton',  'hawkeye', \
+       'fury', 'nick', 'coulson', 'phil', 'banner', 'he', 'him', 'his', \
+       'tony', 'stark', 'bruce', 'jarvis', 'strucker', 'chala', 'chaka', \
+       'man', 'sir', 'mr', 'thor', 'panther', 'cat', 'pietro', 'ultron', \
+       'rhodes', 'rhodey', 'wilson', 'sam', 'falcon', 'klaue', 'ulysses', \
+       'heimdall', 'erik', 'selvig', 'vision', 'thanos', 'bron-char', \
+       'ronan', 'korath', 'director', 'supereme intelligence', 'talos', \
+       'yon-rogg']
 
 # named women = nw
-nw = ['maria', 'hill', 'natasha', 'nat', 'romanoff', 'peggy', 'carter', 'shuri', 'laura', 'wanda', 'friday', 'helen', 'cho', 
-
-df = pd.DataFrame(gl)
-print(df)
+nw = ['maria', 'natasha', 'romanoff', 'peggy', 'carter', 'danvers', 'hill', \
+      'shuri', 'laura', 'wanda', 'friday', 'helen', 'cho', 'minn-erva', \
+      'wendy', 'lawson', 'rambeau', 'monica', 'mon', 'maria', 'carol']
+    
+# giving variable names to the above dataframes
+df = pd.DataFrame(mgl)
+df2 = pd.DataFrame(nw)
